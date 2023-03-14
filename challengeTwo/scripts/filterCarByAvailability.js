@@ -17,21 +17,3 @@ function filterCarByAvailability(cars) {
   // Rubah code ini dengan array hasil filter berdasarkan availablity
   return result;
 }
-filterCarByAvailability([
-  {
-    name: "Honda",
-    available: true,
-  },
-  {
-    name: "Yamaha",
-    available: false,
-  },
-  {
-    name: "Suzuki",
-    available: true,
-  },
-  {
-    name: "Toyota",
-    available: false,
-  },
-]);
